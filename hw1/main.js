@@ -49,9 +49,29 @@
 // Додаткове для тих хто цікавився prompt`oм
 // - За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками. та вивести в консоль.
 
-// let name = prompt('Введіть своє ім\'я');
-// let middleName = prompt('Введіть своє ім\'я по-батькові');
-// let age = prompt('Введіть свій вік');
-//
-// let person = `Бажаю здоров'я, ${name} ${middleName}. Вам вже ${age} рік/роки/років`
-// alert(person)
+let name = prompt('Введіть своє ім\'я');
+let middleName = prompt('Введіть своє ім\'я по-батькові');
+let age = prompt('Введіть свій вік').toString();
+let person = `Бажаю здоров'я, ${name} ${middleName}. Вам вже ${age} `
+
+// В закоментованому прикладі не відпрацьовує умова на 3 та 4 роки,
+// може не така форма запису ||. Підскажіть в чому помилка
+// if (age === "1") {
+//     alert(person + 'рік')
+// } else if (age === ('2' || '3' || '4')) {
+//     alert(person + 'роки')
+// } else {
+//     alert(person + 'років')
+// }
+
+if (age === "1") {
+    alert(person + 'рік')
+} else if (age === '2') {
+    alert(person + 'роки')
+} else if (age === '3') {
+    alert(person + 'роки')
+} else if (age === '4') {
+    alert(person + 'роки')
+} else {
+    alert(person + 'років')
+}
