@@ -51,12 +51,12 @@
 
 let name = prompt('Введіть своє ім\'я');
 let middleName = prompt('Введіть своє ім\'я по-батькові');
-let age = prompt('Введіть свій вік').toString();
+let age = Number(prompt('Введіть свій вік'));
 let person = `Бажаю здоров'я, ${name} ${middleName}. Вам вже ${age} `
 
-if (age === "1") {
+if (age === 1) {
     alert(person + 'рік')
-} else if (age === '2' || age === '3' || age === '4') {
+} else if (age === 2 || age === 3 || age === 4) {
     alert(person + 'роки')
 } else {
     alert(person + 'років')
