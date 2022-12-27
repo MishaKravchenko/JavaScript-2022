@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.generalDiv{
+    display: flex;
+    justify-content: center;
+    background-color: #ffe1bd;
+    padding: 20px 0;
+    margin: 0 100px;
+    border: black 10px solid;
+}
+
+.divUser{
+    background-color: #ff9448;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.h2, .divEmail, .divAddress, .divGeo, .divInfo, .divCompany{
+    border: black 1px solid;
+    display: flex;
+    justify-content: center;
+}
+
+.divAllPosts{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: darkred;
+    margin: 0 100px;
+}
+
+.divPost{
+    display: flex;
+    justify-content: center;
+    background-color: #ffca88;
+    margin: 20px 100px 10px;
+    border: black 2px solid;
+    width: 500px;
+}
+
+.button{
+    padding: 12px;
+    margin: 20px 0;
+    background-color: crimson;
+    color: white;
+    border-radius: 7%;
+    border: black 3px solid;
+}
+
+.a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #2d0000;
+    border: white 2px solid;
+    color: white;
+    padding: 10px 40px;
+}

@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b6cbd9b-0e32-480b-8962-ef73560ce0bd" name="Changes" comment="hw3">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript-2022.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw4/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw4/main.js" afterDir="false" />
+    <list default="true" id="0b6cbd9b-0e32-480b-8962-ef73560ce0bd" name="Changes" comment="hw9">
+      <change afterPath="$PROJECT_DIR$/hw10/css/style1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw10/css/style2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw10/css/style3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw10/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw10/html/post-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw10/html/user-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw10/js/main1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw10/js/main2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw10/js/main3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -29,20 +34,25 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Gw72L7QIREm2vwKd39TgBVw8nt" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/owner/IdeaProjects/JavaScript-2022&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "js.last.introduce.type": "CONST",
+    "last_opened_file_path": "C:/Users/owner/IdeaProjects/JavaScript-2022",
+    "list.type.of.created.stylesheet": "CSS",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\owner\IdeaProjects\JavaScript-2022" />
@@ -63,7 +73,18 @@
       <workItem from="1667886769011" duration="8398000" />
       <workItem from="1667898147354" duration="3097000" />
       <workItem from="1668058358058" duration="3046000" />
-      <workItem from="1668065349233" duration="1301000" />
+      <workItem from="1668065349233" duration="1639000" />
+      <workItem from="1668493934527" duration="4032000" />
+      <workItem from="1668498923245" duration="10171000" />
+      <workItem from="1668595325994" duration="3016000" />
+      <workItem from="1668673984003" duration="5272000" />
+      <workItem from="1670302138543" duration="1670000" />
+      <workItem from="1670305216703" duration="1131000" />
+      <workItem from="1670307151194" duration="3188000" />
+      <workItem from="1670326506170" duration="705000" />
+      <workItem from="1670493521076" duration="4141000" />
+      <workItem from="1671005259903" duration="533000" />
+      <workItem from="1672128925098" duration="622000" />
     </task>
     <task id="LOCAL-00001" summary="hw1">
       <created>1667289945198</created>
@@ -114,7 +135,56 @@
       <option name="project" value="LOCAL" />
       <updated>1667901149612</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="hw4">
+      <created>1668066971650</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668066971650</updated>
+    </task>
+    <task id="LOCAL-00009" summary="hw4">
+      <created>1668067020029</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668067020029</updated>
+    </task>
+    <task id="LOCAL-00010" summary="hw4">
+      <created>1668067091307</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668067091307</updated>
+    </task>
+    <task id="LOCAL-00011" summary="hw5">
+      <created>1668511267377</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1668511267377</updated>
+    </task>
+    <task id="LOCAL-00012" summary="hw6">
+      <created>1668679287772</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1668679287772</updated>
+    </task>
+    <task id="LOCAL-00013" summary="hw8">
+      <created>1670327172533</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1670327172533</updated>
+    </task>
+    <task id="LOCAL-00014" summary="hw9">
+      <created>1670497672861</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1670497672861</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +206,11 @@
     <MESSAGE value="hw2" />
     <MESSAGE value="hw1" />
     <MESSAGE value="hw3" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw3" />
+    <MESSAGE value="hw4" />
+    <MESSAGE value="hw5" />
+    <MESSAGE value="hw6" />
+    <MESSAGE value="hw8" />
+    <MESSAGE value="hw9" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw9" />
   </component>
 </project>
